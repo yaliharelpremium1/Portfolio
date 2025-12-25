@@ -81,9 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 folder: "LANEWAY/", count: 9, instagram: "https://www.instagram.com/lanewayfest/", video_link: "https://lanewayfestival.com" 
             },
             { 
-                name: "LISTEN OUT", role: "OPERATION MANAGER", cat: "AUSTRALIA Wide", year: "2023,24,25", 
+                name: "LISTEN OUT", role: "OPERATION ON DAY MANAGER", cat: "AUSTRALIA Wide", year: "2023,24,25", 
                 summary: "Australia's leading national muilti genre music festival touring major capital cities.",
-                details: "Oversaw all festival operations, including site logistics, stage setup, vendor coordination, and staff management. Developed operational plans, managed budgets, and ensured compliance with safety and licensing regulations. Coordinated across production, security, and artist teams to guarantee smooth, seamless festival delivery", 
+                details: "Oversaw festival operations at various operations during the festival. Developed operational plans, managed staff members, and ensured compliance with safety and licensing regulations. Coordinated across production, security, and artist teams to guarantee smooth, seamless festival delivery", 
                 folder: "LISTEN OUT/", count: 4, instagram: "https://www.instagram.com/listenout/", video_link: "https://listenout.com.au" 
             },
             { 
@@ -91,12 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 summary: "ARIA nominated music festival, multi-day music festival held annually at Barunah Plains over the New Year",
                 details: "Responsible for supporting the planning and delivery of one of Australia’s premier multi-day music and arts festivals. This role oversees logistics, artist and crew scheduling, vendor coordination, and on-site operations to ensure a seamless festival experience. Works closely with production, site, and programming teams to maintain timelines, troubleshoot issues, and uphold the festival’s creative vision, safety standards, and exceptional audience experience", 
                 folder: "BEYOND THE VALLEY/", count: 6, instagram: "https://www.instagram.com/beyondthevalleyfest/?hl=en", video_link: "https://www.beyondthevalley.com.au" 
-            },
-            { 
-                name: "ST KILDA FESTIVAL", role: "HEAD OF PROGRAMMING", cat: "AUSTRALIA Wide", year: "2025", 
-                summary: "Australia's largest free celebration of summer, music, and community culture.",
-                details: "Led all festival programming, curating line ups across multiple stages and genres. Managed artist relations, bookings, and contracts, while coordinating schedules with production, operations, and marketing teams. Oversaw creative direction to ensure a cohesive festival experience, balancing audience engagement with budget and logistical constraints", 
-                folder: "ST KILDA FESTIVAL/", count: 5, instagram: "https://www.instagram.com/stkildafestival/", video_link: "https://www.stkildafestival.com.au" 
             },
             { 
                 name: "A3", role: "TICKETING MANAGER", cat: "Melbourne", year: "2025", 
