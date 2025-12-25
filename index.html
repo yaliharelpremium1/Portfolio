@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YALI HAREL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="section-tracker">
+        <div class="tracker-item active" data-target="hero">01</div>
+        <div class="tracker-item" data-target="about">02</div>
+        <div class="tracker-item" data-target="services">03</div>
+        <div class="tracker-item" data-target="gear">04</div>
+        <div class="tracker-item" data-target="work">05</div>
+        <div class="tracker-item" data-target="mission">06</div>
+    </div>
+
+    <div class="vinyl-record"></div>
+
+    <div class="menu-overlay">
+        <button class="close-menu hover-trigger">CLOSE</button>
+        <div class="nav-links-container">
+            <a href="#services" class="overlay-link hover-trigger"><span class="m-num">01</span> CAPABILITIES</a>
+            <a href="#gear" class="overlay-link hover-trigger"><span class="m-num">02</span> EXPERTISE</a>
+            <a href="#work" class="overlay-link hover-trigger"><span class="m-num">03</span> EXPERIENCE</a>
+            <a href="#mission" class="overlay-link hover-trigger"><span class="m-num">04</span> CONTACT</a>
+        </div>
+    </div>
+
+    <div class="system-status-bar">
+        <div class="status-item"><span class="status-label">TIME:</span> <span id="live-time">00:00:00</span></div>
+        <div class="status-item center-item">
+            <span class="status-label">SECT:</span> <span id="current-section-name">HERO</span>
+        </div>
+        <div class="status-item"><span class="status-label">SYNC:</span> <span id="scroll-progress">00</span>%</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">YALI HAREL</div>
+        </div>
+        <div class="nav-right">
+            <button id="menu-toggle-btn" class="menu-btn hover-trigger">MENU</button>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero image-target snap-section">
+        <div class="mouse-mover">
+            <div class="huge-bg-text">YALI HAREL<br><span class="grey-text">PORTFOLIO</span></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-intro">
+                <p>PRODUCING ONCE IN A LIFETIME MUSIC FESTIVALS AND UNFORGETTABLE MUSIC INDUSTRY PROJECTS</p>
+                <div class="scroll-indicator">SCROLL TO START ↓</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="data-pillar"><div class="audio-line"></div><div class="pillar-node"></div><div class="pillar-label">INPUT // AUDIO</div></div>
+
+    <section id="about" class="text-section snap-section">
+    <div class="text-container">
+        <p class="huge-paragraph">
+            BASED IN AUSTRALIA. WORKING GLOBALLY.
+            <span class="grey-text">
+                SPECIALIZING IN THE MUSIC INDUSTRY, MUSIC FESTIVALS, AND PROJECT MANAGEMENT. 
+                <span class="accent-text">I TURN EMAILS, IDEAS AND LOGISTICS INTO ONCE IN A LIFETIME EXPERIENCES.</span>
+            </span>
+        </p>
+    </div>
+</section>
+
+    <div class="data-pillar"><div class="audio-line"></div><div class="pillar-node"></div><div class="pillar-label">MIX // PROCESS</div></div>
+
+    <section id="services" class="lineup-section snap-section">
+        <div class="section-label">CAPABILITIES</div>
+        <div class="lineup-list">
+            <div class="lineup-row">
+                <div class="lineup-header hover-trigger spot-check-trigger"><h2>PROJECT MANAGEMENT</h2><span class="toggle-icon">+</span></div>
+                <div class="lineup-body"><p class="tech-text">SCOPE DEFINITION / TIMELINE CREATION / RISK ASSESSMENT / RESOURCE ALLOCATION / BUDGETING</p></div>
+            </div>
+            <div class="lineup-row">
+                <div class="lineup-header hover-trigger spot-check-trigger"><h2>FESTIVAL OPERATION</h2><span class="toggle-icon">+</span></div>
+                <div class="lineup-body"><p class="tech-text">SITE LOGISTICS / VENDOR SCHEDULING / ON SITE COORDINATION / LOAD-IN & LOAD-OUT</p></div>
+            </div>
+            <div class="lineup-row">
+                <div class="lineup-header hover-trigger spot-check-trigger"><h2>MUSIC INDUSTRY</h2><span class="toggle-icon">+</span></div>
+                <div class="lineup-body"><p class="tech-text">A&R STRATEGY / ARTIST LIAISON / CONTRACT MANAGEMENT / BOOKING LOGISTICS</p></div>
+            </div>
+            <div class="lineup-row">
+                <div class="lineup-header hover-trigger spot-check-trigger"><h2>STAKEHOLDERS</h2><span class="toggle-icon">+</span></div>
+                <div class="lineup-body"><p class="tech-text">COUNCIL & VENDOR RELATIONS / SPONSOR DELIVERABLES / COMMUNICATION PLANS / INVESTMENT SOURCING</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="data-pillar"><div class="audio-line"></div><div class="pillar-node"></div><div class="pillar-label">PATCH // RACK</div></div>
+
+    <section id="gear" class="gear-section snap-section">
+        <div class="section-label">EXPERTISE</div>
+        <div class="gear-grid">
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">FINANCE</span><h3 class="gear-name">BUDGETING</h3></div>
+                <div class="gear-details"><p>Festival Budget Planning<br>Cost Tracking Sheets<br>Ticket Revenue Forecasting<br>Vendor Quote Management</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">STRATEGY</span><h3 class="gear-name">EVENT PLANNING</h3></div>
+                <div class="gear-details"><p>Full Event Timelines<br>Site Layout Mapping<br>Stage Schedule Coordination<br>Weather Contingency Planning</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">LIAISON</span><h3 class="gear-name">ARTIST COORD</h3></div>
+                <div class="gear-details"><p>Hospitality Rider Management<br>Backstage Access Control<br>Travel Logistics Planning<br>Artist Settlement Processing</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">LOGISTICS</span><h3 class="gear-name">OPERATIONS</h3></div>
+                <div class="gear-details"><p>Load In Scheduling<br>Power Distribution Planning<br>Traffic Flow Management<br>Onsite Emergency Response</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">admin</span><h3 class="gear-name">TICKETING</h3></div>
+                <div class="gear-details"><p>Ticket Structure Setup<br>Ticketing Solution Management<br>Sales Reporting<br>Gate Operation</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">PROCUREMENT</span><h3 class="gear-name">VENDORS</h3></div>
+                <div class="gear-details"><p>Supplier Contract Negotiation<br>Delivery Schedule Coordination<br>Stakeholder Communication<br>Sponsor Deliverable Tracking</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">HR</span><h3 class="gear-name">CREW & STAFF</h3></div>
+                <div class="gear-details"><p>Staff Roster Creation<br>Accreditation Management<br>Staff Briefing Coordination<br>Timesheet Approval</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">COMPLIANCE</span><h3 class="gear-name">RISK & SAFETY</h3></div>
+                <div class="gear-details"><p>Risk Assessment Creation<br>Compliance Documentation<br>Crowd Safety Planning<br>Site Inspection Checks</p></div>
+            </div>
+            <div class="gear-item hover-trigger">
+                <div class="gear-header spot-check-trigger"><span class="gear-cat">MANAGEMENT</span><h3 class="gear-name">LEADERSHIP</h3></div>
+                <div class="gear-details"><p>Team Briefing<br>Radio Channel Management<br>Problem Solving Under Pressure<br>Crisis Management</p></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="data-pillar"><div class="audio-line"></div><div class="pillar-node"></div><div class="pillar-label">MASTER // OUT</div></div>
+
+    <section id="work" class="work-section snap-section">
+        <div class="section-label">EXPERIENCE</div>
+        
+        <div class="filter-menu">
+            <button class="filter-btn active" data-filter="work">FESTIVALS</button>
+            <button class="filter-btn" data-filter="freelance">FREELANCE</button>
+            <button class="filter-btn" data-filter="volunteer">MUSIC INDUSTRY</button>
+            <button class="filter-btn" data-filter="advisor">VOLUNTEER</button>
+        </div>
+
+        <div class="project-header"><span>EVENT</span><span>ROLE</span><span>LOCATION</span><span>YEAR</span></div>
+        <div class="project-list">
+            </div>
+    </section>
+
+    <div class="data-pillar"><div class="audio-line"></div><div class="pillar-node"></div><div class="pillar-label">END // FADE</div></div>
+
+    <section id="mission" class="mission-section image-target snap-section">
+        <div class="mission-container">
+            <h2 class="mission-title">LETS MAKE IT LOUD.</h2>
+            <p class="mission-text">LETS BUILD THE NEXT BIG THINGS TOGETHER.</p>
+            <button class="cta-button hover-trigger" onclick="location.href='mailto:your.email@example.com'">EMAIL ME NOW</button>
+            
+            <div class="footer-links" style="margin-top: 50px; font-family: 'Space Mono', monospace; font-size: 0.8rem; opacity: 0.7;">
+                <a href="#" class="hover-trigger" style="color: white; text-decoration: none; margin-right: 20px;">LINKEDIN</a>
+                <a href="#" class="hover-trigger" style="color: white; text-decoration: none;">INSTAGRAM</a>
+                <p style="margin-top: 10px;">&copy; 2025 YALI HAREL. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
